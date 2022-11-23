@@ -1,0 +1,82 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asul&family=BIZ+UDPMincho&family=Cardo&family=Nosifer&family=Outfit:wght@300;400;500&family=Rubik+Puddles&display=swap');
+
+@font-face {
+    font-family:Maax-boldMono ;
+    src: url('typo/Maax-boldMono.otf') format('opentype');
+}
+@font-face {
+    font-family:Maax-boldMonoItalic ;
+    src: url('typo/Maax-BoldMonoItalic.otf') format('opentype');
+} 
+@font-face {
+    font-family:Maax ;
+    src: url('typo/Maax-RegularMono.otf') format('opentype');
+} 
+ 
+@font-face {
+    font-family:Stempel ;
+    src: url('typo/LTe50492.ttf') format('opentype');
+} 
+*{
+  box-sizing: border-box;  
+}
+.column {
+    float: left;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%; }
+    .left {
+      width: 20%;
+    }
+    
+    .right {
+      width: 80%;}
+      
+.row:after {
+        content: "";
+        display: table;
+        clear: both;}
+
+header > h1 {
+    text-shadow: #000 2px 2px 0.2rem;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+h1{
+    font-family: Rubik Puddles;
+    font-size: 700%;
+    text-align: center;
+    line-height: 6em;
+    }
+    h2{
+        font-family: 'Maax-boldMono';
+        font-size: 200%; 
+        font-weight: 500;
+        text-align: left;
+        line-height: 1em; 
+        margin-bottom: 0px;
+    }
+
+.Paramono{
+    font-family:Maax ;
+    line-height: 0.5em;
+}
+
+body{
+    font-family:Stempel;
+    font-size: 1em;
+    font-weight: 200;
+    text-align: justify;
+}
+
+
+
+h4{
+    font-size: 5em;
+}
+p{
+    font-size: 1.3rem;
+}
