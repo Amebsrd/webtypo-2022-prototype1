@@ -20,7 +20,7 @@
 @font-face {
     font-family:Stempel ;
     src: url('typo/LTe50492.ttf') format('opentype');
-} 
+}
 *{
   box-sizing: border-box;  
 }
@@ -62,21 +62,21 @@ h1{
     }
     
 .test1{
-        font-family:Libre Baskerville;
+        font-family:Stempel;
         font-size: 100%;
        line-height: 1.5em;
     }
 .test2{
-    font-family:Asul;
+    font-family:Stempel;
     font-size: 200%;
 }
 .test3{
-    font-family:Namun Myeongjo ;
+    font-family:Stempel ;
     font-size: 150%;
     line-height: 1.1em;
 }
 .Paramono{
-    font-family:Maax ;
+    font-family:Stempel ;
     line-height: 0.5em;
 }
 
