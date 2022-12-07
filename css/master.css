@@ -2,6 +2,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Asul&family=BIZ+UDPMincho&family=Cardo&family=Nosifer&family=Outfit:wght@300;400;500&family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nanum+Myeongjo&display=swap');
 
 @font-face {
     font-family:Maax-boldMono ;
@@ -59,7 +60,21 @@ h1{
         line-height: 1em; 
         margin-bottom: 0px;
     }
-
+    
+.test1{
+        font-family:Libre Baskerville;
+        font-size: 100%;
+       line-height: 1.5em;
+    }
+.test2{
+    font-family:Asul;
+    font-size: 200%;
+}
+.test3{
+    font-family:Namun Myeongjo ;
+    font-size: 150%;
+    line-height: 1.1em;
+}
 .Paramono{
     font-family:Maax ;
     line-height: 0.5em;
