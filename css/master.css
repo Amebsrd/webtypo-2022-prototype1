@@ -41,6 +41,12 @@
         display: table;
         clear: both;}
 
+header {
+    flex-basis : 100vw;
+    flex-shrink: 0;
+    height : 100vw;
+}
+
 header > h1 {
     color: rgb(0, 255, 0);
     justify-content: center;
@@ -94,4 +100,22 @@ h4{
 }
 p{
     font-size: 1.3rem;
+}
+
+
+main {
+ background-color: #efefef;
+ display: flex;
+}
+
+article {
+ background-color: beige;
+ margin: 1em;
+ flex-basis : 100vw;
+ flex-shrink: 0;
+ height : 100vw;
+}
+
+#chap01 {
+    border: 1px solid red;
 }
