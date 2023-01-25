@@ -33,7 +33,7 @@ h1{
     color: rgb(0, 125, 0);
     font-size: 700%;
     text-align: center;
-    line-height: 6em;
+/*    line-height: 6em; */
     }
 
     h2{
@@ -67,11 +67,11 @@ main {
 
 article {
  background-color: beige;
- margin: 1em;
  padding: 60px;
  flex-basis : 75vw;
  flex-shrink: 0;
  height : 100vw;
+ overflow-y: scroll;
 }
 
 #chap01 {
