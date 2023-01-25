@@ -18,10 +18,14 @@
     src: url('typo/LTe50492.ttf') format('opentype');
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 header {
     flex-basis : 100vw;
     flex-shrink: 0;
-    height : 100vw;
+    height : 100vh;
 }
 
 header > h1 {
@@ -70,8 +74,9 @@ article {
  padding: 60px;
  flex-basis : 75vw;
  flex-shrink: 0;
- height : 100vw;
- overflow-y: scroll;
+ height : 100vh;
+ overflow-y: auto;
+
 }
 
 #chap01 {
