@@ -1,0 +1,13 @@
+
+
+body{
+    --text-color: #054813;  
+    --bkg-color: #bcf3c5;}
+    
+    body.dark-theme { 
+         --text-color: #bcf3c5;  --bkg-color: #054813;}
+         
+         @media (prefers-color-scheme: dark) {  /* defaults to dark theme */  body {    
+            --text-color: #bcf3c5;    --bkg-color: #054813;  }
+            
+            body.light-theme {    --text-color: #054813;    --bkg-color: #a9e8b4;  }}
