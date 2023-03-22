@@ -5,12 +5,13 @@ main {
 }
 
 header {
-    flex-basis : 100vw;
+   flex-basis : 100vw;
     flex-shrink: 0;
-    height : 100vh;
+  height : 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 header > h1 {
@@ -101,6 +102,7 @@ display: flex;
 .onethree > h2, p {
     flex-basis: 50vw;
 }
+
 
 .intro{
     justify-content: center;
