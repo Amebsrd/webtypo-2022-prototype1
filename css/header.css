@@ -1,0 +1,14 @@
+header {
+    flex-basis : 85vw;
+     flex-shrink: 0;
+   height : 200vh;
+     display: flex;
+     flex-direction:column;
+     align-items: center; 
+ }
+ 
+ .accueil{
+font-family: 'Love Ya Like A Sister';
+text-align: right;
+
+}

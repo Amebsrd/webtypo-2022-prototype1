@@ -4,15 +4,6 @@ main {
     display: flex;
 }
 
-header {
-   flex-basis : 100vw;
-    flex-shrink: 0;
-  height : 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; 
-}
 
 header > h1 {
     text-align: center;

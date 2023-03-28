@@ -1,6 +1,6 @@
 
   h2{
-    font-family: 'Unbounded';
+    font-family: 'Love Ya Like A Sister';
     font-size: 200%; 
     font-weight: 500;
     text-align: left;
@@ -20,7 +20,7 @@ grid-template-areas: "chapitre01 chapitre02 chapitre 03";
 }
 
 .chapitre01 {
-   font-family: 'Unbounded'; 
+  font-family: 'Irish Grover', cursive;
    
 }
 
@@ -29,7 +29,7 @@ grid-template-areas: "chapitre01 chapitre02 chapitre 03";
   
 a {
     color: rgb(7, 89, 28);
-font-family:'Unbounded'; 
+    font-family: 'Irish Grover', cursive;
 font-size: 200%;
 font-weight: 600; 
 line-height: 2em;
