@@ -1,12 +1,43 @@
-* {  box-sizing: border-box;}
+* {      
+    box-sizing: border-box;
+}
 
 main {
     display: flex;
 }
 
+article {
+    height: 100vh;
+    flex-basis: 100vw;
+    flex-shrink: 0;
+    padding: 2em; 
+}
 
-header > h1 {
-    text-align: center;
+.article-content {
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+}
+
+.accueil header {
+ flex-basis: 20vh;   
+}
+
+.accueil header ul {
+    display: flex;
+}
+
+.accueil  .article-content  {
+    flex-basis: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sub-header {
@@ -19,25 +50,22 @@ header > h1 {
    text-align: right;
 }
 
-article {
-    min-height: 100vh;
-    flex-basis: 100vw;
-    flex-shrink: 0;
-    padding: 2em;
-}
-.section-content{
-    background: #efefef;
-}
 
-.home {
+/*#### Gabarit en deux colonnes égales ####*/
+
+.twotwo {
 display: flex;
-align-items: center;
-justify-content: center;
 }
 
-.home .section-header{
- background-color: rgb(209, 126, 0);
+.twotwo > * {
+    flex-basis: 50vw;
 }
+
+.navigation-page {
+
+}
+
+/*#### Gabarit en deux colonnes 1tiers 2tiers ####*/
 
 .onethree {
 display: flex;
@@ -52,56 +80,17 @@ display: flex;
     flex-basis: 70vw;
 }
 
-.twotwo {
-display: flex;
-}
 
-.twotwo .section-header {
-    flex-basis: 50vw;
-}
-
-
+/*#### Gabarit en deux colonnes 2tiers 1tiers ####*/
 
 .threeone {
     display: flex;
 }
 
-.threeone .section-header {
+.threeone .article-header {
     flex-basis: 70vw;
 }
 
-.threeone .section-content {
+.threeone .article-content {
     flex-basis: 30vw;
 }
-
-.navigation-page nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-----------------------------------------
-
-.twotwo .section-content,
-.twotwo > h1,
-.twotwo > nav {
-    flex-basis: 50vw; 
-}
-
-.onethree .section-content,
-.onethree > div
-.onethree > h2, p {
-    flex-basis: 50vw;
-}
-
-
-.intro{
-    justify-content: center;
-}
-
-#titresecond{
-justify-content: center;
-font-family: 'Stempel';
-}
-
-

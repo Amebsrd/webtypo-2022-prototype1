@@ -1,0 +1,60 @@
+:root {
+ /*   --text-color: #054813;  
+    --bkg-color: #bcf3c5; */
+}
+
+/*##### COLORS #####*/
+
+body {  
+
+    font-family: Stempel;
+/*  
+    background: var(--bkg-color);
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.4em;
+    margin-top: 1em;
+    padding: 6em; */
+}
+
+h1,h2, h3 {
+    color: var(--text-color);
+}
+
+p, .tetiere 
+{  
+    color: var(--text-color);
+}
+
+/* liens */
+  
+a {
+    color: rgb(7, 89, 28);
+    font-family: 'Irish Grover', cursive;
+    font-size: 200%;
+    font-weight: 600; 
+    line-height: 2em;
+    text-align: center; 
+  } 
+  
+    a:link {
+      
+    }
+    
+    a:visited {
+    
+    }
+    
+    a:focus {
+    
+    }
+    
+    a:hover {
+      color: rgb(255, 102, 0);
+    }
+    
+    a:active {
+      
+    }
+  
+      /* ////// Liens ////// */ 

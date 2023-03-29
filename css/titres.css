@@ -1,0 +1,25 @@
+h1{
+    font-family:  'Love Ya Like A Sister';
+    font-weight: 900;
+    letter-spacing: 1px;
+    }
+
+    h2{
+        font-family: 'Love Ya Like A Sister';
+        font-size: 200%; 
+        font-weight: 500;
+        text-align: left;
+        line-height: 2em; 
+        margin-bottom: 0px;
+    }    
+
+    h3{
+        font-size: 2em;
+    }
+
+    .grandtitre {
+        font-size: 6em;
+    /*    animation: wacky infinite;
+        animation-duration: 5s;
+        animation-timing-function: ease; */
+    }
