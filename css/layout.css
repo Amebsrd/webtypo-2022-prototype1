@@ -1,0 +1,96 @@
+* {      
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    height: 100vh;
+    flex-basis: 100vw;
+    flex-shrink: 0;
+    padding: 2em; 
+}
+
+.article-content {
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+}
+
+.accueil header {
+ flex-basis: 20vh;   
+}
+
+.accueil header ul {
+    display: flex;
+}
+
+.accueil  .article-content  {
+    flex-basis: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.sub-header > h1 {
+   text-align: right;
+}
+
+
+/*#### Gabarit en deux colonnes égales ####*/
+
+.twotwo {
+display: flex;
+}
+
+.twotwo > * {
+    flex-basis: 50vw;
+}
+
+.navigation-page {
+
+}
+
+/*#### Gabarit en deux colonnes 1tiers 2tiers ####*/
+
+.onethree {
+display: flex;
+}
+
+.onethree .section-header {
+    flex-basis: 30vw;
+    
+}
+
+.onethree .section-content {
+    flex-basis: 70vw;
+}
+
+
+/*#### Gabarit en deux colonnes 2tiers 1tiers ####*/
+
+.threeone {
+    display: flex;
+}
+
+.threeone .article-header {
+    flex-basis: 70vw;
+}
+
+.threeone .article-content {
+    flex-basis: 30vw;
+}
