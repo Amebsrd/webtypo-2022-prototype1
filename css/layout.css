@@ -44,6 +44,7 @@ article {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    font-size: 6em;
 }
 
 .sub-header > h1 {
@@ -62,8 +63,10 @@ display: flex;
 }
 
 .navigation-page {
-
 }
+    
+
+
 
 /*#### Gabarit en deux colonnes 1tiers 2tiers ####*/
 
