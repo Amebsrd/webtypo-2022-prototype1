@@ -19,6 +19,11 @@
     font-family:Stempel ;
     src: url('typo/LTe50492.ttf') format('opentype');
 }
+
+@font-face {
+    font-family:Stempelita ;
+    src: url('typo/LTe50491.ttf') format('opentype');
+}
 @font-face {
     font-family:Unbounded ;
     src: url('typo/Unbounded-VariableFont_wght.ttf') format('opentype');
