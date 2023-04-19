@@ -1,0 +1,38 @@
+.grandtitre {
+    font-size: 6em;
+    min-height: 20vh;
+    max-height: 28vh;
+    min-width: 40vw;
+    max-width: 58vw;
+    position: relative;  
+}
+
+.grandtitre::before {
+    content: "top";
+    display: block;
+    border : 1px solid red;
+    background-image: url('images/bg_top.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -2vw;
+    top: -4vw;
+    height:4vh;
+    width: 12vw;
+}
+
+.grandtitre::after {
+    content: " ";
+    border : 1px solid red;
+    display: block;
+    background-image: url('images/bg_top.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 2vw;
+    bottom: 4vh;
+    height:8vh;
+    width: 22vw;
+    transform: rotate(180deg);
+}
+

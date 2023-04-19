@@ -6,14 +6,29 @@
 main {
     display: flex;
 }
+header {
+    background-color: rgb(255, 150, 199);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
 
 article {
     height: 100vh;
     flex-basis: 100vw;
     flex-shrink: 0;
     padding: 2em; 
+
+}
+article > * {
+    padding: 6vw;
+    max-height: 75vh;
 }
 
+.article-header {
+    overflow-y: scroll;
+}
 .article-content {
     overflow-y: scroll;
     max-height: 100vh;
@@ -23,6 +38,7 @@ article {
 .accueil {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .accueil header {
@@ -75,12 +91,12 @@ display: flex;
 display: flex;
 }
 
-.onethree .section-header {
+.onethree .article-header {
     flex-basis: 30vw;
     
 }
 
-.onethree .section-content {
+.onethree .article-content {
     flex-basis: 70vw;
 }
 
@@ -97,4 +113,8 @@ display: flex;
 
 .threeone .article-content {
     flex-basis: 30vw;
+}
+
+nav {
+    overflow-y: scroll;
 }
