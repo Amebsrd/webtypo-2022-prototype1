@@ -2,8 +2,15 @@
     box-sizing: border-box;
 }
 
+
 main {
     display: flex;
+}
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 article {
@@ -11,8 +18,16 @@ article {
     flex-basis: 100vw;
     flex-shrink: 0;
     padding: 2em; 
+
+}
+article > * {
+    padding: 6vw;
+    max-height: 75vh;
 }
 
+.article-header {
+    overflow-y: scroll;
+}
 .article-content {
     overflow-y: scroll;
     max-height: 100vh;
@@ -22,6 +37,7 @@ article {
 .accueil {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .accueil header {
@@ -44,6 +60,7 @@ article {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    font-size: 6em;
 }
 
 .sub-header > h1 {
@@ -62,8 +79,10 @@ display: flex;
 }
 
 .navigation-page {
-
 }
+    
+
+
 
 /*#### Gabarit en deux colonnes 1tiers 2tiers ####*/
 
@@ -71,12 +90,12 @@ display: flex;
 display: flex;
 }
 
-.onethree .section-header {
+.onethree .article-header {
     flex-basis: 30vw;
     
 }
 
-.onethree .section-content {
+.onethree .article-content {
     flex-basis: 70vw;
 }
 
@@ -93,4 +112,13 @@ display: flex;
 
 .threeone .article-content {
     flex-basis: 30vw;
+}
+
+nav {
+    overflow-y: scroll;
+}
+
+
+nav ul li {
+    font-size: x-large ;
 }

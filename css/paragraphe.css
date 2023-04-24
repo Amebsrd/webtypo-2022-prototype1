@@ -1,6 +1,15 @@
 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    text-align: left;
+line-height: 110%;
+margin-left: 1rem;
 }
 
+.intro{
+    margin-right: 40%;
+}
 
+.italique{
+font-family: Stempelita ;
+}
 
