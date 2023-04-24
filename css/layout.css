@@ -7,7 +7,6 @@ main {
     display: flex;
 }
 header {
-    background-color: rgb(255, 150, 199);
     position:fixed;
     top: 0;
     left: 0;
@@ -117,4 +116,9 @@ display: flex;
 
 nav {
     overflow-y: scroll;
+}
+
+
+nav ul li {
+    font-size: x-large ;
 }

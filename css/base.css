@@ -58,3 +58,45 @@ a {
     }
   
       /* ////// Liens ////// */ 
+
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+
+/* CSS */
+.btn-toggle {
+
+  background-color: #fbeee0;
+  border: 2px solid rgb(7, 89, 28);
+  border-radius: 30px;
+  box-shadow: rgb(7, 89, 28) 4px 4px 0 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color: rgb(7, 89, 28);
+  font-family: 'Love Ya Like A Sister';
+  font-size: 100%;
+  font-weight: 600; 
+  line-height: 2em;
+  text-align: center; 
+}
+
+.btn-toggle:hover {
+  background-color: #fff;
+}
+
+.btn-toggle:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+

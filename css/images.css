@@ -8,10 +8,9 @@
 }
 
 .grandtitre::before {
-    content: "top";
+    content: "";
     display: block;
-    border : 1px solid red;
-    background-image: url('images/bg_top.png');
+    background-image: url('../images/bg_top.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -23,14 +22,13 @@
 
 .grandtitre::after {
     content: " ";
-    border : 1px solid red;
     display: block;
-    background-image: url('images/bg_top.png');
+    background-image: url('../images/bg_top.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     right: 2vw;
-    bottom: 4vh;
+    bottom: -10vh;
     height:8vh;
     width: 22vw;
     transform: rotate(180deg);
